@@ -156,7 +156,7 @@
             margin-top: 45px;
         }
 
-        @media (width < 350px) {
+        @media (max-width: 350px) {
             flex-direction: column;
             justify-content: start;
             text-align: start;
@@ -171,7 +171,7 @@
         display: flex;
         justify-content: center;
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             width: 200px;
             margin-left: clamp(2rem, calc(-5.714rem + 38.57vw), 8.75rem);
             padding-top: clamp(1.25rem, calc(-0.893rem + 10.71vw), 3.125rem);
@@ -187,7 +187,6 @@
     &__text-riviews {
         max-width: 365px;
         width: 100%;
-
 
         margin-top: 8px;
     }
@@ -273,7 +272,7 @@
     border: 1px solid #3D3D3D;
     background: linear-gradient(141deg, #202124 0%, #24252D 42.71%, #1C1D21 100%);
 
-    @media (width < 740px) {
+    @media (max-width: 740px) {
         max-width: clamp(18.375rem, calc(-1.863rem + 101.19vw), 44.938rem);
         width: 100%;
     }

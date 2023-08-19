@@ -209,7 +209,7 @@
 
         margin-top: 180px;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             margin-top: clamp(-0.125rem, calc(-25.625rem + 127.5vw), 6.25rem);
             gap: 15px;
         }
@@ -256,13 +256,13 @@
 
 }
 
-@media(max-width:401px) {
+@media(max-width: 401px) {
     .for-large-screens {
       display:none;
     }
   }
   
-  @media(min-width:400px) {
+  @media(min-width: 400px) {
     .for-small-screens {
       display:none;
     }

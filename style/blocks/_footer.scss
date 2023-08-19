@@ -57,7 +57,7 @@
         position: relative;
         gap: clamp(2.875rem, calc(-20.897rem + 47.54vw), 16.188rem);
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             flex-direction: column;
             gap: 150px;
         }
@@ -70,7 +70,7 @@
         margin-top: 25px;
         @include text;
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             max-width: 260px
         }
     }
@@ -83,11 +83,11 @@
     &__nav {
         display: flex;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             gap: clamp(0.813rem, calc(-6.125rem + 18.5vw), 3.125rem);
         }
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             flex-direction: column;
             gap: 50px;
         }
@@ -122,7 +122,7 @@
     }
 
     &__one {
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             order: 2;
         }
         
@@ -132,7 +132,7 @@
     &__two {
         margin-left: clamp(3.75rem, calc(-3.504rem + 14.51vw), 7.813rem);
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             margin-left: 0;
             
         }
@@ -141,7 +141,7 @@
     &__three {
         margin-left: clamp(1.563rem, calc(-5.134rem + 13.39vw), 5.313rem);
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             margin-left: 0;
             order: 1;
         }
@@ -164,7 +164,7 @@
         font-weight: 400;
         line-height: normal;
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             position: absolute;
             top: 232px;
             padding: 16px 34px 15px 42px;
@@ -172,7 +172,7 @@
     }
 
     &__button-img {
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             margin-left: 78px;
         }
     }
@@ -196,7 +196,7 @@
         margin-left: clamp(1.938rem, calc(-37.795rem + 79.46vw), 24.188rem);
         gap: clamp(0.875rem, calc(-20.125rem + 50vw), 4.875rem);
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             flex-direction: column;
             margin-top: -100px;
             margin-left: -83px;
@@ -207,7 +207,7 @@
         margin-left: 42px;
         margin-top: -10px;
 
-        @media (width < 600px) {
+        @media (max-width: 600px) {
             margin-left: clamp(-1.813rem, calc(-130.875rem + 295vw), 16.625rem);
         }
     }

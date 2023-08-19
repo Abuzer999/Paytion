@@ -7,7 +7,7 @@
     background-color: #1E1E1E;
     padding-bottom: 10px;
 
-    @media (width < 700px) {
+    @media (max-width: 700px) {
         height: 100%;
         background-size: 300%;
     }
@@ -19,7 +19,7 @@
         display: flex;
         z-index: 1;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             flex-direction: column;
             padding-top: clamp(7.5rem, calc(-0.921rem + 42.11vw), 17.5rem);
         }
@@ -30,7 +30,7 @@
         max-width: clamp(11.313rem, calc(1.313rem + 50vw), 23.188rem);
         width: 100%;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             left: clamp(3.75rem, calc(-0.461rem + 21.05vw), 8.75rem);
             top: clamp(11.125rem, calc(6.388rem + 23.68vw), 16.75rem);
         }
@@ -39,7 +39,7 @@
     &__left {
         padding-top: 120px;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -57,7 +57,7 @@
         max-width: clamp(25rem, calc(10.017rem + 34.25vw), 37.5rem);
         width: 100%;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             left: clamp(0.813rem, calc(-7.391rem + 43.75vw), 11.75rem);
             bottom: 637px;
         }
@@ -71,7 +71,7 @@
         font-weight: 400;
         line-height: 140%;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             text-align: center;
         }
 
@@ -119,7 +119,7 @@
             display: block;
         }
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             margin-top: 594px;
         }
 
@@ -130,7 +130,7 @@
         display: flex;
         gap: 20px;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             flex-direction: column;
         }
     }
@@ -150,7 +150,7 @@
         box-shadow: 0px 4px 20px 0px rgba(15, 15, 15, 0.20);
         backdrop-filter: blur(5px);
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             min-width: 290px;
             width: 100%;
             height: 80px;
@@ -180,7 +180,7 @@
         max-width: 100px;
         width: 100%;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             max-width: 200px;
         }
     }
@@ -196,7 +196,7 @@
         top: clamp(11.813000000000002rem, 50.469rem - 81.5vw, 4.625rem);
         opacity: 0.7;
 
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             left: 2px;
             top: 442px;
         }
@@ -215,7 +215,7 @@
     }
 
     &__svg {
-        @media (width < 700px) {
+        @media (max-width: 700px) {
             width: clamp(2.188rem, calc(1.661rem + 2.63vw), 2.813rem);
         }
     }

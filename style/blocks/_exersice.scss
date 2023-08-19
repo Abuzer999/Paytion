@@ -115,7 +115,7 @@
         font-weight: 800;
         line-height: 110%;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             font-size: 28px;
         }
 
@@ -127,7 +127,7 @@
 
         padding-top: 80px;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             align-items: center;
             justify-content: center;
         }
@@ -150,7 +150,7 @@
         background: linear-gradient(225deg, rgba(38, 38, 39, 0.30) 0%, rgba(51, 52, 58, 0.30) 56.25%, rgba(34, 34, 36, 0.30) 100%);
         backdrop-filter: blur(50px);
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
@@ -165,7 +165,7 @@
         margin-top: 40px;
         z-index: 2;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             margin-top: 50px;
             max-width: 273px;
             width: 100%;
@@ -179,7 +179,7 @@
 
         @include text;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             margin-top: 15px;
             max-width: clamp(14.875rem, calc(8.125rem + 33.75vw), 25rem);
         }
@@ -225,7 +225,7 @@
             
         }
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             padding: 18px clamp(4.563rem, calc(4.271rem + 1.46vw), 5rem);
             margin-top: 40px;
             
@@ -275,7 +275,7 @@
         right: clamp(12.5rem, calc(8.147rem + 8.71vw), 14.938rem);
         top: clamp(7.875rem, calc(3.746rem + 8.26vw), 10.188rem);
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             right: 104px;
             top: 25px;
             left: clamp(1.813rem, calc(-11.63rem + 67.21vw), 6.938rem);
@@ -298,11 +298,11 @@
 
         margin: -29px 0 0 clamp(1.063rem, calc(-12.219rem + 26.56vw), 8.5rem);
 
-        @media (width < 880px) {
+        @media (max-width: 880px) {
             margin-top: -8px;
         }
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             margin-top: -18px;
             margin-left: clamp(-0.938rem, calc(-12.741rem + 59.02vw), 3.563rem);
 
@@ -313,7 +313,7 @@
     &__right-wallet {
         margin-top: -37px;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             max-width: 320px;
             width: 100%;
             margin-top: -15px;
@@ -344,13 +344,13 @@
     &__right {
         margin-top: -10px;
 
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             z-index: 2;
         }
     }
 
     &__img {
-        @media (width < 800px) {
+        @media (max-width: 800px) {
             max-width: 400px;
             width: 100%;
             
