@@ -92,8 +92,18 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 1px;
   z-index: 1000;
-  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  transition: 0.5s;
+  box-shadow: 4px 4px 8px 0px rgba(71, 73, 75, 0.2);
+  transition: 0.2s;
+  transform: translateY(-150%);
+  animation: ani 1s forwards;
+}
+@keyframes ani {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .header__content {
   display: flex;
@@ -404,6 +414,8 @@ h1, h2, h3, h4, h5, h6, p {
 .home__button::after {
   content: "→";
   display: block;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 700px) {
   .home__button {
@@ -668,6 +680,8 @@ h1, h2, h3, h4, h5, h6, p {
 .exercise__button-one::after {
   content: "→";
   display: block;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 800px) {
   .exercise__button-one {
