@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@import '../style/global/global';
+
+
+//  Block
+
+@import '../style/blocks/header';
+@import '../style/blocks/home';
+@import '../style/blocks/exersice';
+@import '../style/blocks/product';
+@import '../style/blocks/paytion';
+@import '../style/blocks/banner';
+@import '../style/blocks/footer';
+
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+    
+.container {
+    max-width: 1284px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
