@@ -2,8 +2,6 @@ const swiper = new Swiper('.swiper', {
 
     slidesPerView: 3,
     spaceBetween: 20,
-    autoplay: true,
-    autoplaySpeed: 2000,
     speed: 200,
 
   
