@@ -30,12 +30,12 @@
 
         box-shadow: 4px 4px 8px 0px rgba(71, 73, 75, 0.2);
         transition: .2s;
-        transform: translateY(-150%);
-        animation: ani 1s forwards;
 
-        @keyframes ani {
-            0% {transform: translateY(-150%);}
-            100% {transform: translateX(0);}
+        animation: aniHeader .5s forwards;
+
+        @keyframes aniHeader {
+            0% {top: -100%;}
+            100% {top: 0;}
         }
     }
 
